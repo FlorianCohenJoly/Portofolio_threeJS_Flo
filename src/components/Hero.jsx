@@ -17,13 +17,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915eff]">Florian</span> 👨🏻‍💻
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am a student developer Web and Mobil on 2nd year of my studies. I
-            love programming and especially mobile development.
-            <br />
-            <br />
-            The <span className="text-[#915eff]">Flutter</span> language is my
-            favorite language and it is the one I master the best for the
-            moment.
+            I am a student developer Web and Mobile.
           </p>
         </div>
       </div>

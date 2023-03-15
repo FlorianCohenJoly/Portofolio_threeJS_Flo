@@ -1,4 +1,5 @@
 import {
+    site,
     mobile,
     backend,
     creator,
@@ -43,19 +44,23 @@ export const navLinks = [
 const services = [
     {
         title: "Web Developer",
-        icon: web,
+        icon: html
     },
     {
-        title: "React Native Developer",
+        title: "React  Developer",
+        icon: reactjs,
+    },
+    {
+        title: "Flutter Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
-        icon: backend,
+        title: "Git Developer",
+        icon: git,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "Three JS Developer",
+        icon: threejs,
     },
 ];
 
@@ -72,18 +77,12 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
+
     {
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
+
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -108,65 +107,63 @@ const technologies = [
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+
 ];
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Flutter / FlutterFlow Developer in internship",
+        company_name: "Buddy, 78",
+        icon: mobile,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "December 2022 - March 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Development of a mobile application for a start-up called Buddy. ",
+            "The language of this project was Flutter.",
+            "I also saw FlutterFlow which is a low-code tool to develop a mobile application.",
+            "Apart from the code, I learned a lot about the Start-Up world",
         ],
     },
+
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "FullStack Developer in internship",
+        company_name: "Mairie du Plessis-Bouchard, 95",
+        icon: web,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "April 2022 - June 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Development of an intranet site in Html/Css at first then we had to switch to WorPress for back-end problemse",
+            "I was under the direction of the head of the IT department and with the collaboration of the director of communications and the general manager.",
+
         ],
     },
+    {
+        title: "Postman",
+        company_name: "La Poste, 95",
+        icon: creator,
+        iconBg: "#E6DEDD",
+        date: "January 2019 - September 2021",
+        points: [
+            "Autonomous delivery of mail and parcels ",
+            "This job has taught me to work independently, to have good interpersonal skills, and to know how to manage real human problems.",
+            "I also learned to be patient and to be able to adapt to the situation.",
+
+        ],
+    },
+
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 const testimonials = [
@@ -198,16 +195,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Flo Portfolio",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Portfolio website for me. Built with React.js and Tailwind CSS and ThreeJs.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "threejs",
                 color: "green-text-gradient",
             },
             {
@@ -215,51 +212,51 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: site,
+        source_code_link: "https://github.com/FlorianCohenJoly/Portofolio_threeJS_Flo",
     },
-    {
-        name: "Job IT",
-        description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-        tags: [
-            {
-                name: "react",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "restapi",
-                color: "green-text-gradient",
-            },
-            {
-                name: "scss",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: jobit,
-        source_code_link: "https://github.com/",
-    },
-    {
-        name: "Trip Guide",
-        description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-        tags: [
-            {
-                name: "nextjs",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "supabase",
-                color: "green-text-gradient",
-            },
-            {
-                name: "css",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
-    },
+    // {
+    //     name: "Job IT",
+    //     description:
+    //         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    //     tags: [
+    //         {
+    //             name: "react",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "restapi",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "scss",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: jobit,
+    //     source_code_link: "https://github.com/",
+    // },
+    // {
+    //     name: "Trip Guide",
+    //     description:
+    //         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //     tags: [
+    //         {
+    //             name: "nextjs",
+    //             color: "blue-text-gradient",
+    //         },
+    //         {
+    //             name: "supabase",
+    //             color: "green-text-gradient",
+    //         },
+    //         {
+    //             name: "css",
+    //             color: "pink-text-gradient",
+    //         },
+    //     ],
+    //     image: tripguide,
+    //     source_code_link: "https://github.com/",
+    // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
