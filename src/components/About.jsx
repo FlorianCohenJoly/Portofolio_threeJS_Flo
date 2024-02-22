@@ -46,12 +46,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a 2nd year student at the Cergy coding factory and I am preparing a
-        degree in web and mobile development. I love the{" "}
-        <span className="text-[#915eff]">ReactJs</span> and{" "}
-        <span className="text-[#915eff]">ThreeJs</span> languages but what
+        After obtaining my Computer Applications Developer Analyst diploma (bac
+        + 3) at the Coding Factory in Cergy, I continued my course in the 1st
+        year of a Master's degree in Computer Engineering at ESIEE-IT in Cergy.
+        I love the <span className="text-[#3eada2]">ReactJs</span> and{" "}
+        <span className="text-[#3eada2]">ThreeJs</span> languages but what
         really excites me and what I spend all my time on is mobile development
-        with the <span className="text-[#915eff]">Flutter</span> language.
+        with the <span className="text-[#3eada2]">Flutter</span> language.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

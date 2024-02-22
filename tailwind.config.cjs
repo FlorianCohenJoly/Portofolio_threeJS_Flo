@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
+        primary: "#050816", // fond noir
+        secondary: "#f0f2f0", // police de texte 
+        tertiary: "#151030", // background des cartes
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",

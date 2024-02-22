@@ -112,6 +112,18 @@ const technologies = [
 
 const experiences = [
     {
+        title: "System and Network technician",
+        company_name: "Mairie du Plessis-Bouchard, 95",
+        icon: web,
+        iconBg: "#E6DEDD",
+        date: "february 2024 - May 2024",
+        points: [
+            "Monitoring the computer network of all town hall facilities ",
+            "Troubleshooting in the form of a ticket whenever an agent has a technical problem",
+
+        ],
+    },
+    {
         title: "Flutter / FlutterFlow Developer in internship",
         company_name: "Buddy, 78",
         icon: mobile,
